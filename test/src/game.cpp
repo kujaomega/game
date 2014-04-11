@@ -43,8 +43,8 @@ void Game::init(void)
 	plane->createPlane(100);
 
 	shader = new Shader();
+	//shader->load("assets/shaders/simple.vs","assets/shaders/simple.ps");
 	shader->load("assets/shaders/simple.vs","assets/shaders/simple.ps");
-
 	//hide the cursor
 	SDL_ShowCursor(!mouse_locked); //hide or show the mouse
 }
@@ -73,7 +73,6 @@ void Game::render(void)
 	plane->render();	//render plane
 
 	glPopMatrix();
-
 
 	//swap between front buffer and back buffer
 	SDL_GL_SwapWindow(this->window);

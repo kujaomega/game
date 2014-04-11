@@ -1,0 +1,30 @@
+	// al usar un tipo, poner un string #include string
+	//map <std::string, Mesh*>
+	definir operador entidad para ordenar
+	vector <Entity *> myvector; (guardar punteros
+	std::sort(myvector.begin(), myvector.end()>
+	#include <algorithm> (aqui esta el sort)
+	el nombre de funcion le pasas el puntero:
+	std::for_each(myvector.begin(), myvector.end(), mover );
+	definir funciones en caliente
+		std::for_each(myvector.begin(), myvector.end(),[x](int c) { return n<x;});
+	al borrar elemento en array, hacer shift.
+	contenedor destruidos borrar del primer contenedor los que no esten en el otro.
+	#ifdef_DEBUG
+		//codigo que es mas lento pero ayuda a detectar errores
+	#endif
+	llamar a la clase base en herencia
+MyDerivedclass(): Mybaseclass()("foo")
+Evitar hacer downcast, hacer metodos de superclasse ricos. Guardar variable de classe a i decir de que metodo es.
+utilizar downcast. On event, todas las instancias se sobreescribian
+metodos virtuales:
+OnEvent,
+si lo sobreescribo en clase hija, puntero de tipo B* onEvent. Si he hecho un upcast, sera A* i llamara a A. forzar que cada classw incluya una tabla.
+Virtual, guarda tabla para metodos virtuales, para llamar a uno o otro. si haces upcast, pones virtual.
+Contenedores STL.
+clase A : virtual getType() { return A;}
+enum{ A, B, C}
+avion pantalla, textura, terreny.
+orthografic.
+
+avion visto perfil, del centro. siguiente frame
