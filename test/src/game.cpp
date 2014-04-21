@@ -40,11 +40,11 @@ void Game::init(void)
 
 	//create a plane mesh
 	plane = new Mesh();
-	plane->createPlane(100);
+	plane->createPlane(500);
 
 	shader = new Shader();
 	//shader->load("assets/shaders/simple.vs","assets/shaders/simple.ps");
-	shader->load("assets/shaders/simple.vs","assets/shaders/simple.ps");
+	shader->load("assets/shaders/ssimple.vs","assets/shaders/sfimple.ps");
 	//hide the cursor
 	SDL_ShowCursor(!mouse_locked); //hide or show the mouse
 }
